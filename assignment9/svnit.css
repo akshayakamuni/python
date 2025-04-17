@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+}
+.navbar{
+    height: 100px;
+    color: white;
+    width: 100%;
+    display: flex;
+}
+.nav-logo{
+    height: 120px;
+    width: 120px;
+    background-image:url("https://www.svnit.ac.in/images/logo.png");
+    background-size: cover;
+    display: flex;
+}
+.image{
+    height: 120px;
+    width: 120px;
+    background-image: url("https://www.svnit.ac.in/images/sardar_vallabhbhai_patel.png");
+    background-size: cover;
+    display: flex;
+    margin-left: 200px;
+}
+.navbar2{
+    background-color:rgb(36, 72, 101);
+    height: 200px;
+    width: 300%;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    display: inline-block;
+}
+h1{
+    display: block;
+    font-size: 2em;
+    font-weight: bold;
+    unicode-bidi:isolate;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+
+}
+ul{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 15px;
+}
+/* li{
+    /* display: inline-block;
+    background-color: black; */
+ 
+
+li a{
+    color: white;
+    justify-content: space-evenly;
+    text-decoration: none;
+}
+.nav3{
+    background-color:rgb(36, 72, 101);
+    height: 200px;
+    width: 300%;
+    margin-top: 0px;
+    display: flex;
+    justify-content: space-evenly;
+    display: inline-block;
+}
+.mainpart{
+    height: 600px;
+    width: 100%;
+    display: flex;
+}
+.mainimage{
+    background-image: url("https://www.svnit.ac.in/images/convocation24-1/2.jpg");
+    height: 450px;
+    width: 1000px;
+    margin-left: 20px;
+    margin-top: 40px;
+}
+.end img{
+    width: 100px;
+    height: 100px;
+}
